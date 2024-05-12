@@ -1,24 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Admin Dashboard</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/styles.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <section class="mainContainer">
-            <div>
-                <h1>this is my Dashboard project
-                </h1>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Admin Dashboard</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="mainContainer">
+      <sidebar class="sideBar sideFlex">
+        <div class="sideFlexRow">
+          <image 
+          src="/icons/xcircle.svg" 
+          class="companyLogo"
+          alt="company Logo"
+          >
+          <h1 class="dashboard">Dashboard</h1>
+        </div>
+        <div class="sideFlexColumn">
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/home.svg" 
+                alt="Home"/>
+                <h3 class="linkHeading">Home</h3>
             </div>
-        </section>
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/profileLinkImage.svg" 
+                alt="profile"/>
+                <h3 class="linkHeading">Profile</h3>
+            </div>
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/message.svg" 
+                alt="Messages"/>
+                <h3 class="linkHeading">Messages</h3>
+            </div>
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/history.svg" 
+                alt="History"/>
+                <h3 class="linkHeading">History</h3>
+            </div>
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/file-document-multiple.svg" 
+                alt="Tasks"/>
+                <h3 class="linkHeading">Tasks</h3>
+            </div>
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/account-group.svg" 
+                alt="Communities"/>
+                <h3 class="linkHeading">Communities</h3>
+            </div>
 
-        
-        <script src="/index.js" async defer></script>
-    </body>
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/cog.svg" 
+                alt="Settings"/>
+                <h3 class="linkHeading">Settings</h3>
+            </div>
+        </div>
+        <div class="sideFlexColumn">
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/help-rhombus.svg" 
+                alt="Support"/>
+                <h3 class="linkHeading">Support</h3>
+            </div>
+            <div class="sideFlexRow">
+                <img 
+                class="linkIcons" 
+                src="/icons/shield-check.svg" 
+                alt="Privacy"/>
+                <h3 class="linkHeading">Privacy</h3>
+            </div>
+        </div>
+      </sidebar>
+
+      
+
+    </section>
+
+    <script src="/index.js" async defer></script>
+  </body>
 </html>
