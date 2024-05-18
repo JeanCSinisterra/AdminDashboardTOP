@@ -15,7 +15,7 @@
   </head>
   <body>
     <section class="mainContainer">
-      <sidebar class="sideBar sideFlex">
+      <aside class="sideBar sideFlex">
         <div class="sideFlexRow">
           <image 
           src="/icons/xcircle.svg" 
@@ -67,7 +67,9 @@
                 alt="Communities"/>
                 <h3 class="linkHeading">Communities</h3>
             </div>
+        </div>
 
+        <div class="secondIconRow">
             <div class="sideFlexRow">
                 <img 
                 class="linkIcons" 
@@ -75,8 +77,6 @@
                 alt="Settings"/>
                 <h3 class="linkHeading">Settings</h3>
             </div>
-        </div>
-        <div class="sideFlexColumn">
             <div class="sideFlexRow">
                 <img 
                 class="linkIcons" 
@@ -92,17 +92,39 @@
                 <h3 class="linkHeading">Privacy</h3>
             </div>
         </div>
-      </sidebar>
+      </aside>
       <header>
         <!-- TO DO: TERMINAR LA ESTRUCTURA PRINCIPAL  -->
         <!-- Tiene un Container Div Principal -->
         <!-- Dentro de este container hay img, input, 2 img, titulo h3 -->
+        <div class="containerHeadbar">
+          <div  class="headbar"> 
+            <img src="/icons/magnify.svg" alt="Finder" class="finderIcon"/>
+            <input type="text" class="finderBar">
+            <img src="/icons/bell-ring-outline.svg" alt="Ringbell" class="ringbellIcon">
+            <img src="/images/profilePic.png" alt="profilePic" class="profilePicIcon">
+            <h3 class="userName">Jean Carlo</h3>
+          </div>
 
         <!-- Hay un Container Div secundario -->
         <!-- Este container tiene una img, luego otro div hijo-->
         <!-- Dentro del div hijo, hay un p tag y h2 tag -->
-
+          <div class="secondContainer">
+            <img src="/images/profilePic.png" alt="profilePicture" class="profilePicture">
+            <div class="">
+              <p class="">Hi there,</p>
+              <h2 class="">Jean Carlo (@jcss)</h2>
+            </div>
         <!-- Dentro del Container Div, hay 3 buttons -->
+            <div class="buttonContainer">
+              <button type="button">New</button>
+              <button type="button">Upload</button>
+              <button type="button">Share</button>
+            </div>
+          </div>
+        </div>
+
+
 
       </header>
       <main>
