@@ -85,32 +85,39 @@ body {
     gap: 10px;
 }
 
-.finderBar {
-    width: 600px;
-    height: 25px;
-    border-radius: 25px;
-    border: 0.5px  #686868;
-    background-color: #e3e2e2;
-}
-
-.finderIcons {
-    width: 25px;
-    height: 25px;
-}
-
-.profilePicIcon {
+.headbarNav img {
     width: 30px;
     height: 30px;
-    /* padding: 0 5px 0 25px; */
-    display: flex;
-    justify-content: flex-end;
+    padding: 0 5px 0 25px;
 }
 
-.headbar h3 {
+.finderBar {
+    border-radius: 25px;
+    background-color: #e7e5e4;
+    border: none;
+    padding: 0.5em 0.5em;
+    margin-left: 1.5em;
+    width: 600px;
+    height: 25px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account p {
     color: #010101;
     margin: 0 0 0 10px;
     display: flex;
     justify-content: flex-start;
+}
+
+.account img {
+    width: 30px;
+    height: 30px;
+    padding: 0 5px 0 25px;
 }
 
 .secondContainer {
