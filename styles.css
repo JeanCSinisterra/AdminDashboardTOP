@@ -175,3 +175,86 @@ body {
   width: 6.25em;
   height: 2.5em;
 }
+
+/* Content Layout */
+main {
+  background-color: #e7e5e4;
+}
+
+#ContentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+}
+
+.nestedContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: whitesmoke;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h5 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.card-content {
+  margin-bottom: 20px;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.card-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Announcements & Trends Section */
+#Announcements {
+  display: grid;
+  /* flex-direction: column; */
+  grid-template-columns: auto;
+  gap: 20px;
+  padding: 15px;
+}
+
+#Announcements ul {
+  list-style: none;
+  background-color: whitesmoke;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+#Announcements ul li{
+    padding: 1em 0;
+    border-top: 1px solid #eee;
+}
+
+#Announcements li h5 {
+  font-size: 1.1em;
+  font-weight: 700;
+}
