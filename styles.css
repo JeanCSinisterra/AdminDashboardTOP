@@ -237,7 +237,7 @@ main {
   display: grid;
   /* grid-template-columns: 1fr auto;
   grid-template-rows: min-content 1fr; */
-  /* gap: 20px; */
+  gap: 5px;
   width: 300px;
 }
 
