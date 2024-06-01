@@ -232,11 +232,9 @@ main {
   height: 24px;
 }
 
-/* Announcements & Trends Section */
+/* Announcements Section */
 #Announcements {
   display: grid;
-  /* grid-template-columns: 1fr auto;
-  grid-template-rows: min-content 1fr; */
   gap: 5px;
   width: 300px;
 }
